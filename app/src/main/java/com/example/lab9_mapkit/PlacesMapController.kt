@@ -14,7 +14,6 @@ import com.yandex.mapkit.map.IconStyle
 import com.yandex.mapkit.map.InputListener
 import com.yandex.mapkit.map.Map
 import com.yandex.mapkit.map.MapObjectTapListener
-import com.yandex.mapkit.map.TextStyle
 import com.yandex.mapkit.mapview.MapView
 import com.yandex.runtime.image.ImageProvider
 import java.lang.ref.WeakReference
@@ -68,7 +67,6 @@ class PlacesMapController(
                 userData = place
                 setIcon(if (place.custom) customIcon else presetIcon)
                 setIconStyle(IconStyle().apply { anchor = PointF(0.5f, 1f); scale = 0.7f })
-                setText(place.title, TextStyle().apply { size = 11f; offset = 4f })
                 addTapListener(tapReference)
             }
         }
