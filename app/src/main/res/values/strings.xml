@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Места Новосибирска</string>
+    <string name="heading">Новосибирск</string>
+    <string name="hint">Зелёные — места города, оранжевые — ваши точки. Удерживайте карту, чтобы добавить место.</string>
+    <string name="home">К центру</string>
+    <string name="zoom_in">Приблизить карту</string>
+    <string name="zoom_out">Отдалить карту</string>
+    <string name="loading">Загрузка карты…</string>
+    <string name="places_count">Точек на карте: %1$d</string>
+    <string name="saving">Сохранение точки…</string>
+    <string name="new_place">Новое место</string>
+    <string name="place_name">Название места</string>
+    <string name="empty_name">Введите название</string>
+    <string name="add">Добавить</string>
+    <string name="cancel">Отмена</string>
+    <string name="close">Закрыть</string>
+    <string name="key_missing">Не задан ключ MapKit. Добавьте MAPKIT_API_KEY в local.properties и пересоберите приложение.</string>
+    <string name="loading_slow">Карта ещё загружается. Проверьте интернет и активацию ключа MapKit.</string>
+</resources>
